@@ -11,28 +11,28 @@ Gem::Specification.new do |s|
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
   s.require_paths = ["lib"]
   s.authors = ["tduehr"]
-  s.date = "2015-02-02"
+  s.date = "2015-02-03"
   s.description = "SCPI (IEEE 488.2) interface. Only the Rigol DS1102D oscilloscope is implemented currently. All SCPI interfaces *should* be supported."
   s.email = "tduehr@gmail.com"
   s.extra_rdoc_files = [
-    "LICENSE.txt",
-    "README.rdoc"
+    "LICENSE",
+    "README.md"
   ]
   s.files = [
-    ".document",
     "Gemfile",
-    "LICENSE.txt",
-    "README.rdoc",
+    "LICENSE",
+    "README.md",
     "Rakefile",
     "VERSION.yml",
-    "lib/oscope/relation.rb",
-    "lib/oscope/relation/base.rb",
-    "lib/oscope/relation/channel.rb",
-    "lib/oscope/relation/group.rb",
-    "lib/oscope/relation/key.rb",
-    "lib/oscope/relation/query.rb",
-    "lib/oscope/relation/write.rb",
-    "lib/oscope/rigol/ds1102d.rb",
+    "oscope.gemspec",
+    "oscope/relation.rb",
+    "oscope/relation/base.rb",
+    "oscope/relation/channel.rb",
+    "oscope/relation/group.rb",
+    "oscope/relation/key.rb",
+    "oscope/relation/query.rb",
+    "oscope/relation/write.rb",
+    "oscope/rigol/ds1102d.rb"
   ]
   s.homepage = "http://github.com/tduehr/oscope"
   s.licenses = ["MIT"]
